@@ -1,40 +1,54 @@
 body {
-  font-family: cursive;
-  margin: 0;
-  padding: 0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #c7a0ea;
 }
 
+/* Cabeçalho */
 header {
-  background-color: rgb(234, 165, 252);
-  color: rgb(32, 10, 31);
-  padding: 20px;
-  text-align: center;
+    background-color: #a1aab1;
+    color: white;
+    text-align: center;
+    padding: 30px;
 }
+
+/* Menu */
 nav {
-  background-color: #120222;
-  padding: 10px;
-  text-align: center;
+    background-color: #b37df6;
+    padding: 15px;
+    text-align: center;
 }
 
 nav a {
-  color: rgb(231, 182, 233);
-  text-decoration: none;
-  margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
 }
 
+nav a:hover {
+    color: #ffb6c1;
+}
+
+/* Conteúdo */
 main {
-  padding: 20px;
+    padding: 20px;
 }
 
 section {
-  margin-bottom: 20px;
-  padding: 15px;
-  border: 1px solid #cc68e6;
+    background-color: white;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 700px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
+/* Rodapé */
 footer {
-  background-color: rgb(16, 10, 31);
-  color: rgb(240, 178, 240);
-  text-align: center;
-  padding: 15px;
+    background-color:#b37df6;
+    color: white;
+    text-align: center;
+    padding: 15px;
 }
